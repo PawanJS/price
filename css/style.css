@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Open+Sans:wght@300&display=swap");
+
+/* *BASIC STUFF */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Karla", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  flex-direction: column;
+  background: hsl(204, 43%, 93%);
+}
+
+/* *HEADINGS */
+
+.main-heading {
+  color: hsl(179, 62%, 43%);
+  font-size: 25px;
+  margin-bottom: 22px;
+  font-weight: 700;
+}
+.title h3 {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.first-box h3,
+.second-box h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* *MAIN */
+
+.main-box {
+  background: white;
+  max-width: 650px;
+  border-radius: 5px;
+  height: auto;
+  box-shadow: 0 30px 80px 10px rgba(0, 0, 0, 0.2);
+}
+.title {
+  padding: 6%;
+}
+.main-text {
+  line-height: 1.5;
+  color: hsl(218, 22%, 67%);
+  font-weight: 300;
+  font-size: 16px;
+}
+.content {
+  display: flex;
+  font-size: 16px;
+}
+.first-box {
+  flex: 1;
+  background: #2db1b1;
+  padding: 6% 5%;
+  border-bottom-left-radius: 5px;
+}
+.first-box span {
+  color: #fff;
+  font-size: 30px;
+}
+.first-box p:first-of-type {
+  color: #6dd1d4;
+  font-weight: 300;
+  margin-top: 25px;
+}
+.first-box p:last-of-type {
+  color: #fff;
+  font-weight: 300;
+  margin-top: 15px;
+}
+.btn-full {
+  margin-top: 35px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  background: #bfdf32;
+  box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.2);
+}
+.second-box {
+  flex: 1;
+  background: #4abebd;
+  padding: 6% 5%;
+  border-bottom-right-radius: 5px;
+}
+.benefits {
+  list-style: none;
+  margin-top: 20px;
+}
+.benefits li {
+  color: #84d7da;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.4;
+}
+footer {
+  margin-top: 20px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media only screen and (max-width: 376px) {
+  .content {
+    flex-direction: column;
+  }
+  .first-box {
+    border-bottom-left-radius: 0;
+  }
+  .second-box {
+    border-bottom-left-radius: 5px;
+  }
+}
