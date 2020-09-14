@@ -91,6 +91,9 @@ body {
   background: #bfdf32;
   box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.2);
 }
+.btn-full:hover{
+  background: #b1ce2f;
+}
 .second-box {
   flex: 1;
   background: #4abebd;
@@ -117,7 +120,7 @@ footer {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 583px) {
   .content {
     flex-direction: column;
   }
