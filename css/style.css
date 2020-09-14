@@ -91,8 +91,12 @@ body {
   background: #bfdf32;
   box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.2);
 }
-.btn-full:hover{
+.btn-full:hover {
+  animation: pulse 1s infinite;
   background: #b1ce2f;
+}
+*{
+  outline: none;
 }
 .second-box {
   flex: 1;
@@ -120,6 +124,18 @@ footer {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 @media only screen and (max-width: 583px) {
   .content {
     flex-direction: column;
