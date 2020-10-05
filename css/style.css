@@ -90,6 +90,7 @@ body {
   border: none;
   background: #bfdf32;
   box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 .btn-full:hover {
   animation: pulse 1s infinite;
